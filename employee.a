@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+     float basic,gross,da,hra;
+     printf("enter basic salary of an employee;");
+     scanf("%f", basic);
+    
+    if(basic<=10000)
+       {
+           hrs=basic*0.2;
+           da=basic*0.8
+       }
+    else
+    if(basic>20000)
+       {
+           hrs=basic*0.3
+           da=basic*0.95
+       }
+    gross = basic+hra+da;
+    printf("gross salary of employee =%2f".gross);
+    getch();
+}
